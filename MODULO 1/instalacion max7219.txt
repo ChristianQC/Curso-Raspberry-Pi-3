@@ -6,3 +6,7 @@ sudo pip install -e .
 sudo apt-get install python3-dev python3-pip
 sudo pip3 install spidev
 sudo python3 setup.py install
+
+
+
+link documentacion : https://max7219.readthedocs.io/en/0.2.3/
