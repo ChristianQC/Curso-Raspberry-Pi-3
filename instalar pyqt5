@@ -7,7 +7,7 @@ sudo wget https://www.riverbankcomputing.com/static/Downloads/sip/4.19.14/sip-4.
 sudo tar xzf sip-4.19.14.tar.gz
 cd sip-4.19.14
 sudo python3.6 configure.py --sip-module PyQt5.sip
-sudo make
+sudo make -j4
 sudo make install
 
 cd /usr/src
